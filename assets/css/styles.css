@@ -80,7 +80,7 @@ section>.container>h2,
 .nav__toggle span{width:26px;height:3px;background:var(--ink);border-radius:3px;transition:.25s}
 
 /* ============ HERO ============ */
-.hero{position:relative;background:#3a4047 url("../img/hero.svg") center/cover no-repeat;color:#fff;overflow:hidden}
+.hero{position:relative;background:#3a4047 url("../img/hero.jpg") center/cover no-repeat;color:#fff;overflow:hidden}
 .hero__overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,16,20,.78),rgba(12,16,20,.45))}
 .hero__inner{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;
   padding:96px 24px 110px}
