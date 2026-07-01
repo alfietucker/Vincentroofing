@@ -7,7 +7,7 @@
   --body:#4b5560;
   --line:#e4e9ec;
   --radius:12px;
-  --container:1200px;
+  --container:1520px;
   --shadow:0 18px 40px rgba(16,24,40,.10);
 }
 *{box-sizing:border-box;margin:0;padding:0}
@@ -57,7 +57,7 @@ section>.container>h2,
 /* ============ NAV ============ */
 .nav{background:#fff;position:sticky;top:0;z-index:50;border-bottom:1px solid #f0f2f4}
 .nav__inner{display:flex;align-items:center;justify-content:space-between;height:84px;gap:24px}
-.logo__svg{height:54px;width:auto}
+.logo__svg{height:62px;width:auto}
 .logo__name{font-family:"Figtree";font-weight:800;font-size:46px;fill:#16191c;letter-spacing:1px}
 .logo__sub{font-family:"Figtree";font-weight:600;font-size:19px;fill:#0c8a7e;letter-spacing:8px}
 .nav__menu{display:flex;align-items:center;gap:30px}
@@ -80,13 +80,15 @@ section>.container>h2,
 .nav__toggle span{width:26px;height:3px;background:var(--ink);border-radius:3px;transition:.25s}
 
 /* ============ HERO ============ */
-.hero{position:relative;background:#3a4047 url("../img/hero.jpg") center/cover no-repeat;color:#fff;overflow:hidden}
-.hero__overlay{position:absolute;inset:0;background:linear-gradient(90deg,rgba(12,16,20,.78),rgba(12,16,20,.45))}
-.hero__inner{position:relative;display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;
-  padding:96px 24px 110px}
-.hero__copy h1{font-size:3.4rem;line-height:1.08;font-weight:700;letter-spacing:-.02em}
-.hero__copy p{margin-top:22px;font-size:1.12rem;max-width:480px;color:#e9edf0}
-.hero__actions{margin-top:36px;display:flex;gap:16px;flex-wrap:wrap}
+.hero{position:relative;background:#8a9099 url("../img/hero.jpg") center/cover no-repeat;color:#fff;overflow:hidden;
+  min-height:clamp(600px,50vw,1000px);display:flex;align-items:center}
+.hero__overlay{position:absolute;inset:0;
+  background:linear-gradient(90deg,rgba(8,11,15,.6) 0%,rgba(8,11,15,.48) 32%,rgba(8,11,15,.2) 100%)}
+.hero__inner{position:relative;width:100%;display:grid;grid-template-columns:1.12fr .88fr;gap:56px;align-items:center;
+  padding:80px 24px}
+.hero__copy h1{font-size:4rem;line-height:1.1;font-weight:700;letter-spacing:-.02em}
+.hero__copy p{margin-top:24px;font-size:1.15rem;max-width:520px;color:#e9edf0}
+.hero__actions{margin-top:38px;display:flex;gap:16px;flex-wrap:wrap}
 
 /* quote card */
 .quote-card{
