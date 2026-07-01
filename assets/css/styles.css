@@ -80,14 +80,14 @@ section>.container>h2,
 .nav__toggle span{width:26px;height:3px;background:var(--ink);border-radius:3px;transition:.25s}
 
 /* ============ HERO ============ */
-.hero{position:relative;background:#8a9099 url("../img/hero.jpg") center/cover no-repeat;color:#fff;overflow:hidden;
+.hero{position:relative;background:#3a4249 url("../img/hero.jpg") center 42%/cover no-repeat;color:#fff;overflow:hidden;
   min-height:clamp(600px,50vw,1000px);display:flex;align-items:center}
 .hero__overlay{position:absolute;inset:0;
-  background:linear-gradient(90deg,rgba(8,11,15,.6) 0%,rgba(8,11,15,.48) 32%,rgba(8,11,15,.2) 100%)}
+  background:linear-gradient(90deg,rgba(8,11,15,.66) 0%,rgba(8,11,15,.5) 34%,rgba(8,11,15,.28) 100%)}
 .hero__inner{position:relative;width:100%;display:grid;grid-template-columns:1.12fr .88fr;gap:56px;align-items:center;
   padding:80px 24px}
-.hero__copy h1{font-size:4rem;line-height:1.1;font-weight:700;letter-spacing:-.02em}
-.hero__copy p{margin-top:24px;font-size:1.15rem;max-width:520px;color:#e9edf0}
+.hero__copy h1{font-size:clamp(2.3rem,3.5vw,4.4rem);line-height:1.1;font-weight:700;letter-spacing:-.02em}
+.hero__copy p{margin-top:24px;font-size:clamp(1rem,1.05vw,1.2rem);max-width:520px;color:#e9edf0}
 .hero__actions{margin-top:38px;display:flex;gap:16px;flex-wrap:wrap}
 
 /* quote card */
